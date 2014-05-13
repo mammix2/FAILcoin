@@ -1,0 +1,34 @@
+src/*.exe
+src/failcoin
+src/failcoind
+src/test_failcoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.failcoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+failcoin-qt
+Failcoin-Qt.app
+
+# Unit-tests
+Makefile.test
+failcoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
